@@ -1,5 +1,6 @@
 # inventory-system
 universal inventory system, for computer games, written in the C# language for the Unity engine
+![example](https://github.com/Fisash/inventory-system/blob/main/images/result.jpg)
 ## installing
 create an inventory folder in the Assets folder of your project and put the Scripts, Prefabs, Items folders there
 
