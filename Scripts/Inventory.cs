@@ -10,7 +10,7 @@ namespace Assets.Scripts.InventorySystem
     {
         public ItemSlot[] slots;
         public ItemSlot mouseSlot;
-
+        //public Item testItem;
         public void Start()
         {
             slots = new ItemSlot[transform.childCount];
@@ -19,6 +19,7 @@ namespace Assets.Scripts.InventorySystem
             {
                 slots[i] = new ItemSlot(transform.GetChild(i).transform.GetChild(0).GetComponent<Image>());
             }
+            //AddItem(testItem, 5);
         }
         public void TapSlot(int index)
         {
